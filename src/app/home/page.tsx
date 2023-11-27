@@ -12,6 +12,7 @@ export default function Home() {
         alt="Background Image"
         layout="fill"
         objectFit="cover"
+        objectPosition='right'
       />
       <div className='relative text-blue-50 text-5xl '>
         <h1>
