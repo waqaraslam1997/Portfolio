@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Nav() {
     return (
-        <nav className='fixed flex justify-between content-center items-center w-full px-24 py-5 bg-[#111] shadow-lg'>
+        <nav className='fixed flex justify-between content-center items-center w-full px-24 py-4 bg-[#111] shadow-lg'>
             <div >
                 <h1 className='text-white text-2xl font-black tracking-widest'>PORTFOLIO</h1>
             </div>
@@ -10,7 +10,7 @@ export default function Nav() {
                 <Link href='#' className="px-5 py-2">HOME</Link>
                 <Link href='#about' className="px-5 py-2 ">ABOUT</Link>
                 <Link href='#'className="px-5 py-2">SERVICES</Link>
-                <Link href='#'className="px-5 py-2">WORK</Link>
+                <Link href='#work'className="px-5 py-2">WORK</Link>
                 <Link href='#'className="px-5 py-2">CONTACT</Link>
             </div>
         </nav>

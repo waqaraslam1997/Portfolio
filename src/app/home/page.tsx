@@ -18,7 +18,7 @@ export default function Home() {
         <h1>
           Hello, I'm <br /><span className='text-7xl font-bold'>Waqar Aslam</span>
         </h1>
-        <h2 className='text-3xl font-medium pt-7'>I am Full Stack Web-Developer</h2>
+        <h2 className='text-3xl font-medium pt-7'>A Full Stack Web-Developer</h2>
       </div>
     </div>
     </main>
